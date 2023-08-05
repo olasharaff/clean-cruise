@@ -1,0 +1,29 @@
+#discount-container {
+    background-color: violet;
+}
+
+.discount-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: clamp(1rem, 100%, 15rem);
+    padding-top: 3rem;
+    margin: 0 auto;
+    padding: 0 clamp(1rem, 5vw, 3rem);
+    max-width: 65rem;
+}
+
+.discount-text-content {
+    max-width: 28.75rem;
+
+    & p {
+        max-width: 21.96rem;
+    }
+
+}
+.dis-image {
+    max-width: 20rem;
+    height: auto;
+    padding-top: 4rem;
+}

@@ -1,0 +1,83 @@
+body {
+    background-color: #fff;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+
+/* SERVICE SECTION CUSTOMIZE */
+
+.service-container {
+    margin: 0 auto;
+    text-align: center;
+    padding: clamp(2rem, 100%, 5rem);
+    padding-inline: 0;
+
+}
+
+.circle-box {
+    top: -5rem;
+}
+
+.service-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 0rem auto;
+    gap: clamp(1rem, 100%, 2rem);
+    padding-block: 4rem;
+}
+
+.hhhh {
+    padding: 1rem 0;
+}
+
+
+.service-boxs {
+    background-color: #fff;
+    max-width: 22rem;
+    border-radius: 1rem;
+    padding-block: 2rem;
+
+}
+
+.circle-content {
+    margin-top: -3rem;
+    padding-inline:  2rem;
+   & h1{
+        padding: 1rem 0;
+    }
+}
+
+.serEllipse {
+    top: 21%;
+    right: 38%;
+    max-width: 100%;
+}
+
+#service {
+    background: #F5F7FD;
+}
+
+
+
+
+@media screen and (max-width: 48rem) {
+    .service-boxs {
+        gap: 12rem
+    }
+}

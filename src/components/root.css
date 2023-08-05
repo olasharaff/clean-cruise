@@ -1,0 +1,115 @@
+:root {
+    --ff-normal: 'DM Sans', sans-serif;
+
+    --fw-small: 400;
+    --fw-normal: 600;
+    --fw-light: 700;
+    --fw-bold: 800;
+
+    --fs-ft: 1rem;
+    --fs-nav: 1.125rem;
+    --fs-100: 1.25rem;
+    --fs-200: 2rem;
+    --fs-300: 2.25rem;
+    --fs-400: 3rem;
+
+    --lh-100: 1.362rem;
+    --lh-200: 1.527rem;
+    --lh-300: 1.532rem;
+    --lh-400: 1.94rem;
+    --lh-500: 2.272rem;
+    --lh-600: 3.064rem;
+    --lh-700: 4.086rem;
+
+    --clr-pink: #F36B7F;
+    --clr-lg-bk:#000000;
+    --clr-white: #FFFFFF;
+}
+
+.clr-white{
+    color:var(--clr-white)
+}
+
+.clr-lg-bk{
+color: var(--clr-lg-bk);
+}
+.clr-bg-pink{
+    background: var(--clr-pink);
+}
+
+.clr-text-pink {
+    color: var(--clr-pink);
+}
+
+.text-100s {
+    font-size: var(--fs-ft);
+    font-family: var(--ff-normal);
+    font-weight: var(--fw-bold);
+    line-height: var(--lh-100);
+}
+
+
+.text-100 {
+    font-size: var(--fs-ft);
+    font-family: var(--ff-normal);
+    font-weight: var(--fw-light);
+    line-height: var(--lh-100);
+}
+
+.text-200 {
+    font-size: var(--fs-ft);
+    font-family: var(--ff-normal);
+    font-weight: var(--fw-light);
+    line-height: var(--lh-200);
+}
+
+.text-300 {
+    font-size: var(--fs-nav);
+    font-family: var(--ff-normal);
+    font-weight: var(--fw-small);
+    line-height: var(--lh-300);
+}
+
+.text-400 {
+    font-size: var(--fs-100);
+    font-family: var(--ff-normal);
+    font-weight: var(--fw-normal);
+    line-height: var(--lh-400);
+}
+
+.text-500 {
+    font-size: var(--fs-100);
+    font-family: var(--ff-normal);
+    font-weight: var(--fw-light);
+    line-height: var(--lh-400);
+}
+
+.text-600 {
+    font-size: var(--fs-200);
+    font-family: var(--ff-normal);
+    font-weight: var(--fw-light);
+    line-height: var(--lh-500);
+}
+
+.text-700 {
+    font-size: var(--fs-300);
+    font-family: var(--ff-normal);
+    font-weight: var(--fw-bold);
+    line-height: var(--lh-600);
+}
+
+.text-800 {
+    font-size: var(--fs-400);
+    font-family: var(--ff-normal);
+    font-weight: var(--fw-light);
+    line-height: var(--lh-700);
+}
+
+.book-btn, .cust-btn{
+    border-radius: 10px;
+    border: 1px solid #f36b7f;
+    color: #fff;
+    background: #f36b7f;
+    padding: 0.5rem 1.5rem;
+
+}
